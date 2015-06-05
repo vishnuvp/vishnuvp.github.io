@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+<meta charset="UTF-8">
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/jquery-2d-transform.js"></script>
+<script src="scripts/wow.js"></script>
+
+<link rel="stylesheet" href="styles/animate.css">
+<link rel="stylesheet" href="styles/style.css"/>
+<script>
+ new WOW().init();
+</script>
+</head>
 <body>
-<ul class="menu-items">
-<li class="menu-item"></li>
-<li class="menu-item"></li>
-<li class="menu-item"></li>
-<li class="menu-item"></li>
-</ul>
+<div id="welcome-banner">
+	<!--i id="dp-f"></i-->
+
+	    <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+       		 <text class="path" xml:space="preserve" text-anchor="middle" font-family="courier" font-size="100" id="svg_1" y="10%" x="50%" stroke-width="2" stroke="#ffffff" fill="#ffffff">Vishnu V P</text>
+    		       		 
+    	</svg>
+    	
+</div>
+<div id="welcome-overlay"></div>
+<div id="sticky-name">
+	<div id="name">Vishnu V P</div>
+	<!--div id="sticky-cv">Curriculum Vitae</div-->
+
+	<ul id="menu" class="menu">
+		<li><a class="menu-link" href="#name" to="#profile">Profile</a></li>
+		<li><a class="menu-link" href="#profile" to="#edu">Experiences</a></li>
+		<li><a class="menu-link" href="#edu" to="#skills">Skills</a></li>
+		<li><a class="menu-link" href="#skills" to="#contacts">Connect</a></li>
+	</ul>
+</div>
+
+<div id="main">
+	<div id="sticky-cv">Curriculum Vitae</div>
+	<ul id="menu-nonsticky" class="menu">
+		<li><a class="menu-link" href="#name" to="#profile">Profile</a></li>
+		<li><a class="menu-link" href="#profile" to="#edu">Experiences</a></li>
+		<li><a class="menu-link" href="#edu" to="#skills">Skills</a></li>
+		<li><a class="menu-link" href="#skills" to="#contacts">Connect</a></li>
+	</ul>
+	<div class="section" id="profile">
+		<div class="section-head wow fadeInDown">Profile</div>
+		<div class="section-body wow  zoomIn" style="text-align:center">I am a hacker (not a cracker) and I luv hacking. A post graduate student in Computer Science and Engineering, I am enthusiastic about and keenly observe developments in information security, high performance computing, machine learning and algorithms. </div>
+	</div>
+	<div class="section" id="edu">
+		<div class="section-head wow fadeInDown">Experiences</div>
+		<div class="section-body">
+			<div class="section-sub-section">
+				<span class="section-sub-head wow fadeInDown">Education</span>
+				<span class="section-sub-body">
+					<div class="school-name wow fadeInDown">National Institute of Technology, Calicut <a href="https://www.google.co.in/maps/place/National+Institute+of+Technology+Calicut/@11.321402,75.936988,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xcfe81298b35154d8" target="_blank" class="loc-anchor"></a>
+					<i class="display-pic nit"></i>
+					</div>
+					<div class="school-details wow fadeInDown">M Tech, Computer Science and Engineering, Started in 2014</div>
+
+					<br />
+					<div class="school-name wow fadeInDown">SCT College of Engineering, Thiruvananthapuram<a href="https://www.google.co.in/maps/place/Sree+Chitra+Thirunal+College+of+Engineering/@8.469403,76.978742,15z/data=!4m2!3m1!1s0x0:0x4ce024c88eb0ddcb" target="_blank" class="loc-anchor"></a>
+					<i class="display-pic sct"></i>
+					</div>
+					<div class="school-details wow fadeInDown">B Tech, Computer Science and Engineering, 2007 - 2011</div>
+				</span>
+			</div>
+			<div class="section-sub-section">
+				<span class="section-sub-head wow fadeInDown">Career</span>
+				<span class="section-sub-body">
+					<div class="org-name wow fadeInDown">Tata Consultancy Services Ltd.
+					<i class="display-pic tcs"></i></div>
+					<div class="org-details wow fadeInDown">Systems Engineer, Oct 2011 - July 2014</div>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="skills">
+		<div class="section-head wow fadeInDown">Skills</div>
+			<div class="section-body">
+				<div class="section-sub-section">
+					<span class="section-sub-head wow fadeInLeft">Web 2.0</span>
+					<span class="section-sub-body">
+						<div class="skills wow fadeInLeft">PHP </div>
+						<div class="skills wow fadeInLeft">CSS2/CSS3</div>
+						<div class="skills wow fadeInLeft">HTML/HTML5</div>
+						<div class="skills wow fadeInLeft">js/jQuery</div>
+						<div class="skills wow fadeInLeft">Xampp Stack</div>
+						<div class="skills wow fadeInLeft">Drupal</div>
+						<div class="skills wow fadeInLeft">Wordpress</div>
+					</span>
+				</div>
+				<div class="section-sub-section">
+					<span class="section-sub-head wow fadeInLeft">Programming Languages</span>
+					<span class="section-sub-body">
+						<div class="skills wow fadeInLeft">C</div>
+						<div class="skills wow fadeInLeft">C++</div>
+						<div class="skills wow fadeInLeft">Python</div>
+						<div class="skills wow fadeInLeft">Java</div>
+					</span>
+				</div>
+				<div class="section-sub-section">
+					<span class="section-sub-head wow fadeInLeft">DBMS</span>
+					<span class="section-sub-body">
+						<div class="skills wow fadeInLeft">MySQL</div>
+						<div class="skills wow fadeInLeft">Oracle</div>
+						<div class="skills wow fadeInLeft">DB2</div>
+					</span>
+				</div>
+				<div class="section-sub-section">
+					<span class="section-sub-head wow fadeInLeft">NOSQL</span>
+					<span class="section-sub-body">
+						<div class="skills wow fadeInLeft">MongoDB</div>
+						
+					</span>
+				</div>
+			</div>
+	</div>
+	<div  class="section" id="contacts">
+		<div class="section-head wow fadeInDown">Connect</div>
+		<div class="section-body wow fadeInUp">
+		<div>
+			<span class="inline-icon" id="fb"><span class="layer-1">fb</span><a href="http://fb.com/vishnuvp" target="_blank"><span class="layer-2">fb</span></a></span>
+			<span class="inline-icon" id="gp"><span class="layer-1">g+</span><a href="https://www.google.com/+VishnuVenukumar" target="_blank"><span class="layer-2">g+</span></a></span>
+			<span class="inline-icon" id="mt"><span class="layer-1">mt</span><a href="mailto:to.vishnuvp@gmail.com" target="_blank"><span class="layer-2">mt</span></a></span>
+			<span class="inline-icon" id="li"><span class="layer-1">li</span><a href="https://in.linkedin.com/in/vi5hnuvp" target="_blank"><span class="layer-2">li</span></a></span>
+			<span class="inline-icon" id="tw"><span class="layer-1">tw</span><a href="http://twitter.com/vishnuvp" target="_blank"><span class="layer-2">tw</span></a></span>
+			<span class="inline-icon" id="gh"><span class="layer-1">gh</span><a href="http://github.com/vishnuvp" target="_blank"><span class="layer-2">gh</span></a></span>
+			<span class="inline-icon" id="ig"><span class="layer-1">ig</span><a href="https://instagram.com/vishnuvenukumar" target="_blank"><span class="layer-2">ig</span></a></span>
+		</div>
+		</div>
+	</div>
+</div>
+<a id="up-nav" class="menu-link" to="#main" style="text-decoration: none" href="#">&uparrow;</a>
 </body>
 </html>

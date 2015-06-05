@@ -1,0 +1,22 @@
+.nit-small, .sct, .tcs-small{
+	background: url(sprites.png) no-repeat;
+}
+
+.nit-small{
+	background-position: -299px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.sct{
+	background-position: -149px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.tcs-small{
+	background-position: 0 0;
+	width: 100px;
+	height: 100px;
+}
+

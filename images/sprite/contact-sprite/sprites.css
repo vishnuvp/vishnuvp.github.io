@@ -1,0 +1,88 @@
+.s-46-facebook-128, .Contact_2-128, .facebook-128, .github-128, .github-128-(1), .google-128, .Google_-128, .Instagram-128, .Intsagram-128, .Linkedin-128, .LinkedIn-128, .mail-icon-128, .twitter-128, .Twitter-128{
+	background: url(sprites.png) no-repeat;
+}
+
+.s-46-facebook-128{
+	background-position: -884px -17px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Contact_2-128{
+	background-position: -443px -16px ;
+	width: 128px;
+	height: 128px;
+}
+
+.facebook-128{
+	background-position: -884px -160px ;
+	width: 128px;
+	height: 128px;
+}
+
+.github-128{
+	background-position: 0 -154px ;
+	width: 128px;
+	height: 128px;
+}
+
+.github-128-(1){
+	background-position: 0 -7px ;
+	width: 128px;
+	height: 128px;
+}
+
+.google-128{
+	background-position: -742px -168px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google_-128{
+	background-position: -741px -19px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram-128{
+	background-position: -587px -164px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Intsagram-128{
+	background-position: -589px -14px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin-128{
+	background-position: -280px -160px ;
+	width: 128px;
+	height: 128px;
+}
+
+.LinkedIn-128{
+	background-position: -280px -14px ;
+	width: 128px;
+	height: 128px;
+}
+
+.mail-icon-128{
+	background-position: -428px -163px ;
+	width: 128px;
+	height: 128px;
+}
+
+.twitter-128{
+	background-position: -141px -159px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter-128{
+	background-position: -135px -9px ;
+	width: 128px;
+	height: 128px;
+}
+

@@ -1,0 +1,338 @@
+body {
+	  min-width: 420px;
+}
+
+#welcome-banner {
+  background: url("../images/keys.jpg") no-repeat scroll center top;
+  height: 900px;
+  position: fixed;
+  top: 0;
+  width: 99%;
+  z-index: -1;
+}
+
+#dp-f {
+  background-image: url("../images/me-small.jpg");
+  background-position: 11px -6px;
+  background-repeat: no-repeat;
+  border-radius: 100em;
+  padding: 3em;
+  position: absolute;
+  display: none;
+}
+
+.path {
+  
+}
+#welcome-overlay {
+  background-color: rgba(0, 0, 200, 0.5);
+  
+  height: 900px;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  width: 99%;
+  z-index: -1;
+}
+#main {
+  margin-top: 500px;
+}
+.section {
+background: white;
+position: relative;
+height: auto;
+padding: 2em;
+float: left;
+width: 95.5%;
+}
+#name, #sticky-cv {
+background: none;
+color: white;
+font-family: courier;
+position: relative;
+height: 70px;
+text-align: center;
+vertical-align: text-bottom;
+font-size: 4em;
+}
+#sticky-cv {
+font-size: 2em;
+height: 40px;
+vertical-align: text-bottom;
+}
+#sticky-name {
+background: none;
+color: white;
+font-family: courier;
+position: fixed;
+height: 140px;
+text-align: center;
+vertical-align: text-bottom;
+font-size: 1em;
+top: 0;
+display: none;
+z-index: 9999;
+background: url("../images/keys.jpg") no-repeat scroll center top;
+width: 99%;  
+min-width: 420px;
+}
+.menu {
+  list-style: none;
+  color: white;
+  font-family: courier;
+  font-size: 1em;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu li {
+  display: inline-block;
+}
+#profile {
+  background: #EFEFEF;
+}
+#edu {
+  background: #DFD6B5;
+}
+#exp {
+  background: #6E767C;
+}
+#skills {
+  background: #F7EDED;
+}
+#contacts {
+  background: #524D54;
+}
+.section-head {
+  font-family: open sans,sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.section-body {
+  font-family: open sans,sans-serif;
+  font-weight: 100; 
+
+}
+
+.section-sub-section {
+  float: left;
+  margin: 1em;
+  width: 100%;
+}
+
+.section-sub-section {
+  float: left;
+  margin: 1em;
+  width: 100%;
+}
+
+.section-sub-head {
+  float: left;
+  margin-right: 10em;
+  text-align: right;
+  width: 30%;
+}
+
+.section-sub-body {
+  float: left;
+  width: 50%;
+}
+
+.loc-anchor {
+    background: url("../images/icon-location.png") repeat scroll 0 0;
+float: left;
+height: 16px;
+width: 16px;
+}
+
+
+
+.star {
+  background: url("../images/exp-star.png") repeat-x scroll 0 0;
+  height: 20px;
+  padding-left: 20px;
+  float: right;
+}
+
+.skills {
+margin-right: 60%;
+padding: 0.5em;
+}
+.inline-icon {
+  position: relative;
+  margin-left:11em;
+}
+#fb {
+  margin-left: 0px;
+}
+.inline-icon .layer-1,.inline-icon .layer-2{
+  border: 1px solid;
+  border-radius: 250px;
+  margin-left: 1em;
+  padding: 3.7em;
+  display: inline-block;
+  background-image: url("../images/sprites.png");
+  background-repeat: no-repeat;
+
+}
+.layer-1, .layer-2 {
+  position: absolute;
+}
+a.menu-link {
+  color: white;
+}
+
+#up-nav {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  border: 1px solid #aeaeae;
+  border-radius: 12em;
+  bottom: 1%;
+  font-size: 2em;
+  font-weight: 900;
+  opacity: 0.6;
+  padding: 0.5em 0.6em;
+  position: fixed;
+  right: 1%;
+}
+
+.layer-1 {
+z-index: 10000;
+background-color: #DEDEDE;
+}
+
+.layer-2 {
+  background-color: #EFEFEF;
+}
+
+#skills .section-head:focus {
+  color: red;
+}
+
+#fb .layer-2{
+background-position: -881px -165px;
+}
+
+#fb .layer-1{
+background-position: -881px 0;
+
+}
+#gp .layer-2{
+background-position: -741px -165px;
+}
+
+#gp .layer-1{
+background-position: -743px 5px;
+
+}
+#mt .layer-2{
+background-position: -441px -164px;
+}
+
+#mt .layer-1{
+background-position: -445px 5px;
+
+}
+
+#li .layer-2 {
+  background-position: -290px -161px;
+  padding: 3.9em 4em;
+}
+
+#li .layer-1 {
+  background-position: -300px 8px;
+  padding: 3.9em 4em;
+}
+
+#tw .layer-2 {
+  background-position: -143px -164px;
+}
+
+#tw .layer-1 {
+  background-position: -148px 5px;
+}
+#gh .layer-2 {
+  background-position: 5px -164px;
+}
+
+#gh .layer-1 {
+  background-position: 5px 5px;
+}
+#ig .layer-2 {
+  background-position: -595px -163px;
+}
+
+#ig .layer-1 {
+ background-position: -601px 4px;
+}
+.inline-icon .layer-1, .inline-icon .layer-2 {
+  color: transparent;
+}
+
+#contacts {
+  height: 200px;
+  background: #666;
+  color: #efefef;
+}
+.skills,.wow  {
+  transition: all 400ms ease-in;
+}
+.skills:hover,.wow:hover {
+  color: indianred;
+}
+
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 0.5s linear alternate both;
+  animation: dash 10s 0.5s linear alternate both;
+    font-family: courier;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+i.display-pic {
+  background: rgba(0, 0, 0, 0) url("../images/exp-sprite.png") no-repeat scroll 0 0;
+  border-radius: 7em;
+  box-shadow: 0 0 30px #efefef ;
+  display: none;
+  padding: 3em;
+  position: absolute;
+  right: 6%;
+  top: 40%;
+}
+i.nit {
+  background-position: -300px 0;
+}
+
+i.sct {
+  background-position: -150px 0;
+}
+
+i.tcs {
+  background-position: 0 0;
+}
