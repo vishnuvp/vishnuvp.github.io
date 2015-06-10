@@ -82,12 +82,19 @@ min-width: 420px;
   font-family: courier;
   font-size: 1em;
   text-align: center;
+  padding-left: 0;
 }
 .menu a {
   text-decoration: none;
 }
 .menu li {
+  margin: 0 6em;
+  border-bottom: 0.1em solid transparent;
+  transition: all 200ms ease-in 0s;	
   display: inline-block;
+}
+.menu li:hover {
+  border-bottom: 0.1em solid #efefef;
 }
 #profile {
   background: #EFEFEF;
