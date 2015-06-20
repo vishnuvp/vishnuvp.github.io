@@ -343,3 +343,30 @@ i.sct {
 i.tcs {
   background-position: 0 0;
 }
+.subject {
+  border-left: 0.5em solid #23c782;
+  border-right: 0.5em solid #23c782;
+  margin: 0 auto;
+  padding: 1em;
+  color: #23c782;
+  font-size: 1em;
+  width: 50%;
+  text-align: center;
+  border-top: 0.1em solid #23c782;
+  border-bottom: 0.1em solid #23c782;
+}
+ul.reading-links li {
+  list-style: none;
+  border-left: 1em solid indianred;
+  padding: 1em;
+  margin: 1em;
+  background: rgba(203, 94, 94,0.1);
+  width: 90%; 
+}
+
+.reading-list-date {
+  border: 0.1em solid indianred;
+  padding: 0.2em;
+  color: red;
+  float: right;
+}

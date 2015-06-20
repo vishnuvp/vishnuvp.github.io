@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="google-site-verification" content="3_nrgTmSFSANvH4dwNa86lxOVE_GaU8D-W93RMnoNy8" />
+<script src="scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/jquery-2d-transform.js"></script>
+<script src="scripts/wow.js"></script>
+
+<link rel="stylesheet" href="styles/animate.css">
+<!--link rel="stylesheet" href="styles/style.css"/ -->
+<link href='http://fonts.googleapis.com/css?family=Pacifico|Dancing+Script' rel='stylesheet' type='text/css'>
+<script>
+ new WOW().init();
+</script>
+<style type="text/css">
+	
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 0.5s linear alternate both;
+  animation: dash 10s 0.5s linear alternate both;
+  /*font-family: 'Pacifico', cursive;*/
+  font-family: 'Dancing Script', cursive;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 1;
+
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+body {
+	background: indianred;
+	width: 100%;
+	height: 900px;
+}
+</style>
+<title>Vishnu V P</title>
+</head>
+<body>
+<div id="welcome-banner" style="float:left;height:100%;width:100%">
+	<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	       		 <text class="path" xml:space="preserve" text-anchor="middle" font-family="Verdana" font-size="200" id="svg_1" y="20%" x="50%" stroke-width="2" stroke="#fff" fill="indianred">Vishnu V P</text>      
+	</svg>
+</div>
+</body>
+</html>
