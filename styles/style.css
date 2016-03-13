@@ -45,6 +45,7 @@ height: auto;
 padding: 2em;
 float: left;
 width: 100%;
+text-align: center;
 }
 #name, #sticky-cv {
 background: none;
