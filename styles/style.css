@@ -4,6 +4,7 @@ body {
 
 #welcome-banner {
   background: url("../images/keys.jpg") no-repeat scroll center top;
+  background-size: cover;
   height: 900px;
   position: fixed;
   top: 0;
@@ -43,7 +44,7 @@ position: relative;
 height: auto;
 padding: 2em;
 float: left;
-width: 95.5%;
+width: 100%;
 }
 #name, #sticky-cv {
 background: none;
