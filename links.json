@@ -1,0 +1,24 @@
+{  
+   "links":[  
+      {  
+         "title":"Keep passwords safe from hackers; break them into bits",
+         "link":"http://www.technologyreview.com/news/429498/to-keep-passwords-safe-from-hackers-just-break-them-into-bits/",
+         "date":"Jun 21, 2015"
+      },
+      {  
+      	 "title":"Chosen Ciphertext Secure Public Key Threshold Encryption Without Random Oracles",
+         "link":"http://crypto.stanford.edu/pbc",
+         "date":"Jun 21, 2015"
+      },
+      {  
+      	"title":"Threshold Cryptography - Cunningham & Cunningham, Inc.",
+         "link":"http://c2.com/cgi/wiki?ThresholdCryptography",
+         "date":"Jun 21, 2015"
+      },
+      {
+      	"title": "A JCA based threshold cryptography framework",
+      	"link": "http://www.acsac.org/2001/papers/42.pdf",
+      	"date": "Jun 24, 2015"
+      }
+   ]
+}

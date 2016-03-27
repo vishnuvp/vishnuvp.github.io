@@ -376,3 +376,29 @@ ul.reading-links li {
 #contacts {
   text-align: left;
 }
+
+.back-to-hp {
+ background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+ border-radius: 12em;
+ font-size: 2em;
+ font-weight: 900;
+ opacity: 0.6;
+ padding: 0.2em 0.3em;
+ position: fixed;
+ top: 1%;
+ text-decoration: none;
+ color: black;
+}
+
+.back-to-hp:hover {
+ background: rgba(255, 0, 0, 0.2) none repeat scroll 0 0;
+ border-radius: 12em;
+ font-size: 2em;
+ font-weight: 900;
+ opacity: 0.6;
+ padding: 0.2em 0.3em;
+ position: fixed;
+ top: 1%;
+ text-decoration: none;
+ color: red;
+}
