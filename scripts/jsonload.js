@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$.getJSON("http://0.0.0.0:8000/links.json", function(data){
+	$.getJSON("../links.json", function(data){
 	dataArray = data.links;
     $.each(data.links,function(index, value) {
     	var title = value['title'];
