@@ -45,7 +45,7 @@ height: auto;
 padding: 2em;
 float: left;
 width: 100%;
-text-align: center;
+/*text-align: center;*/
 }
 #name, #sticky-cv {
 background: none;
@@ -371,4 +371,8 @@ ul.reading-links li {
   padding: 0.2em;
   color: red;
   float: right;
+}
+
+#contacts {
+  text-align: left;
 }
