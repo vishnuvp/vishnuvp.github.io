@@ -29,4 +29,11 @@ jQuery('.inline-icon').mouseenter(function(){
   }).mouseleave(function () { $('.display-pic',this).fadeOut(); });
 
   //$('#welcome-overlay').mouseenter(function() { $('#dp-f').fadeIn();}).mouseleave(function() { $('#dp-f').fadeOut();});
+
+  $(document).ready(function(){
+  $("#icon-0").click(function(){
+    $(".icon").toggleClass("no-translate")
+  });
+});
+  
 });
