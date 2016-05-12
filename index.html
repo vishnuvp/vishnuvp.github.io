@@ -51,7 +51,9 @@ body {
     fill-opacity: 1;
   }
 }
-
+#name {
+	height: 100px;
+}
 #links {
 	font-family: 'Alex Brush', cursive;
 	font-size: 1.5em;
@@ -95,13 +97,13 @@ body {
 	width: 40%;
 	position: relative;
 	margin: 0 auto;
-	height: 40vh;
+	height: 20vh;
 
 }
 
 .quad-1 {
 	transform: translatex(8em);
-	-webkit-
+	-webkit-transform: translatex(8em);
 }
 
 .quad-2 {
@@ -172,6 +174,68 @@ body {
 #icon-1 {
 	background-position: 1px -346px; /*Twitter*/
 }
+
+#feed-container {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "philosopher","Tahoma" !important;
+  overflow: hidden;
+  text-align: center;
+}
+#feed-container ul li {
+  list-style: outside none none;
+  margin: 0.2em;
+  padding: 0.2em;
+  transition: all 600ms ease-in 0s;
+}
+
+#feed-container ul li a{
+  text-decoration: none;
+  color: #278ebe;
+  transition: all 600ms ease-in 0s;
+
+}
+
+#feed-container ul li a:hover {
+  color: #be8e27;
+}
+
+#feed-container .blog-title {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0.1em;
+}
+
+#feed-container .blog-link {
+  margin: 0.8em 0;
+}
+.blog-summary {
+  color: #666;
+  text-align: center; 
+}
+.blog-date {
+	color: #aeaeae;
+}
+#page-nos {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.blog-pages {
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.5em;
+  outline: none;
+}
+.blog-pages:hover {
+border-top: 1px dashed red;	
+}
+
+.clicked {
+	color: red;
+}
+
 @media only screen and (max-width: 500px) { 
 
 #svg-wrapper {
@@ -226,6 +290,14 @@ body {
 	<a href="http://stackexchange.com/users/3591432/vishnuvp" title="vishnuvp - StackExchange" target="_blank"><i class="icon quad-8 no-translate" id="icon-8"></i></a>
 </div>
 
+<div id="feed-container">
+			<hr style="border-style:ridge;border-color: #efefef" />
+    		<span style="font-size:1.2em; font-family:'Alex Brush',cursive;">From the blog</span>
+	<ul>
+		
+	</ul>
+	<div id="page-nos"></div>
+</div>
 <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
