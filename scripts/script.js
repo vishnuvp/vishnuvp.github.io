@@ -42,7 +42,7 @@ function readFeed() {
     
     $.ajax({
         type: 'GET',
-        url: "http://blog.vishnuvp.xyz/feeds/posts/summary?alt=json-in-script",
+        url: "http://blog.vishnuvp.me/feeds/posts/summary?alt=json-in-script",
         async: false,
         contentType: "application/json",
         dataType: 'jsonp',
