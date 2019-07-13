@@ -36,7 +36,7 @@ jQuery('.inline-icon').mouseenter(function(){
     $(".icon").toggleClass("no-translate")
   });
   readFeed();
-  var pageSize = 3;
+  var pageSize = 6;
 //});
 function readFeed() {
     
@@ -92,7 +92,7 @@ function renderBlogList(data) {
               if (title.length > 64 ) {
                 title = title.substr(0,64) + '...';
               };
-              $('#feed-container ul').append('<li><div class="blog-title">'+title+'</div><div class="blog-date">'+date+'</div><div class="blog-summary">'+summary+'</div><div class="blog-link"><a href="'+post.link[4].href+'" target="_blank">Read this article</div></li>');
+              $('#feed-container ul').append('<li><a href="'+post.link[4].href+'" target="_blank"><div class="blog-title">'+title+'</div></a><div class="blog-date">'+date+'</div><div class="blog-summary">'+summary+'</div><div class="blog-link"></div></li>');
           
         }
 }
