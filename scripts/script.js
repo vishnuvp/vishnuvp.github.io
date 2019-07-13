@@ -1,9 +1,13 @@
 var blogs = "";
+var CONFIG = {
+  "blogurl": "http://vishnuvenukumar.blogspot.com/feeds/posts/summary?alt=json-in-script",
+  "pageSize": 6
+}
+
 $(document).ready(function(){
   
   $("#name-hider").show().animate({width: "0%"},2500);
   $("#my-name").fadeOut('slow').fadeIn('slow');
-
   $(window).scroll(function(){
    // $("#sticky-name").text(($(this).scrollTop()));
     if(($(this).scrollTop()) > 390) 
@@ -36,27 +40,27 @@ jQuery('.inline-icon').mouseenter(function(){
     $(".icon").toggleClass("no-translate")
   });
   readFeed();
-  var pageSize = 6;
+  
 //});
 function readFeed() {
     
     $.ajax({
         type: 'GET',
-        url: "http://blog.vishnuvp.me/feeds/posts/summary?alt=json-in-script",
+        url: CONFIG.blogurl,
         async: false,
         contentType: "application/json",
         dataType: 'jsonp',
         success: function (json) {
             //localStorage.setItem("blogList", json.feed.entry);
             blogs = json.feed.entry;
-            var numberOfPages = Math.ceil(blogs.length/pageSize);
+            var numberOfPages = Math.ceil(blogs.length/CONFIG.pageSize);
             var line = "";
             for (var i = 1; i <= numberOfPages; i++) {
               line += "<a href='#feed-container' data='"+i+"' class='blog-pages'>"+i+"</a>"
             };
             $("#page-nos").html(line);
             $(".blog-pages").first().addClass('clicked');
-            renderBlogList(blogs.slice(0,pageSize));  
+            renderBlogList(blogs.slice(0,CONFIG.pageSize));  
           }
 
     });
@@ -66,8 +70,8 @@ $(document.body).on('click','.blog-pages',function (e) {
       //e.preventDefault();
       $('.blog-pages').removeClass('clicked');
       $(this).addClass('clicked');
-      var start = ($(this).attr("data")-1)*pageSize;
-      renderBlogList(blogs.slice(start,start+pageSize));
+      var start = ($(this).attr("data")-1)*CONFIG.pageSize;
+      renderBlogList(blogs.slice(start,start+CONFIG.pageSize));
   });
 function renderBlogList(data) {
     $('#feed-container ul').hide().html("").fadeIn();
