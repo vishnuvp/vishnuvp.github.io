@@ -1,6 +1,6 @@
 var blogs = "";
 var CONFIG = {
-  "blogurl": "https://vishnuvenukumar.blogspot.com/feeds/posts/summary?alt=json-in-script",
+  "blogurl": "https://blog.vishnuvp.in/feeds/posts/summary?alt=json-in-script",
   "pageSize": 6
 }
 
