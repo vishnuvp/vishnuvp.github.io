@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="google-site-verification" content="3_nrgTmSFSANvH4dwNa86lxOVE_GaU8D-W93RMnoNy8" />
+<meta name="description" content="Vishnu Venukumar (Vishnu V P)" />
+<meta name="author" content="Vishnu" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+<script src="scripts.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<link rel="stylesheet" href="styles/animate.css">
+<link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+
+<script>
+ new WOW().init();
+</script>
+<title>Vishnu V P</title>
+<style>
+body {
+	min-width: 320px;
+}
+	.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 0.5s linear alternate both;
+  animation: dash 5s 0.5s linear alternate both;
+  font-family: 'Alex Brush', cursive;
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+#name {
+	height: 100px;
+}
+#links {
+	font-family: 'Alex Brush', cursive;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#links li {
+	display: inline-block;
+	margin: 1em;
+	transition: all 400ms ease-in; 
+	-webkit-transition: all 400ms ease-in;
+}
+#links ul{
+	padding: 0;
+}
+
+#links ul li a{
+	text-decoration: none;
+	color: #777;
+}
+
+#links ul li:hover {
+	border-bottom: 0.01em solid #777;
+}
+
+.icon {
+	/*border: 1px solid indianred;
+	border-radius: 10em;*/
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	background: url('images/home-sprites-2.png') no-repeat;
+	padding: 25px 0 0 25px;
+}
+
+#icon-container {
+	/*border: 1px solid indianred;*/
+	width: 40%;
+	position: relative;
+	margin: 0 auto;
+	height: 5vh;
+
+}
+
+.quad-1 {
+	transform: translatex(8em);
+	-webkit-transform: translatex(8em);
+}
+
+.quad-2 {
+	transform: translatex(6em);
+	-webkit-transform: translatex(6em);
+}
+
+.quad-3 {
+	transform: translatex(4em);-webkit-transform: translatex(4em);
+}
+
+.quad-4 {
+	transform: translatex(2em);-webkit-transform: translatex(2em);
+}
+
+.quad-5 {
+	transform: translatex(-2em);-webkit-transform: translatex(-2em);
+}
+
+.quad-6 {
+	transform: translatex(-4em);-webkit-transform: translatex(-4em);
+}
+
+.quad-7 {
+	transform: translatex(-6em);-webkit-transform: translatex(-6em);
+}
+.quad-8 {
+	transform: translatex(-8em);-webkit-transform: translatex(-8em);
+}
+
+.no-translate {
+	transform: translatex(0);
+	-webkit-transform: translatex(0);
+}
+.icon {
+	transition: all 400ms ease-in;
+	-webkit-transition: all 400ms ease-in;
+	cursor: pointer;
+	display: block;
+}
+#icon-0 {
+	z-index: 999;
+	background: url('images/spiral.png') no-repeat #fff;
+	padding: 30px 0 0 30px;
+}
+
+#icon-8 {
+	background-position: 0 -51px; /*Stackoverflow*/
+}
+#icon-7 {
+	background-position: 1px -296px; /*Instagram*/
+}
+#icon-6 {
+	background-position: 1px -148px; /*GitHub*/
+}
+#icon-5 {
+	background-position: 1px -196px; /*Google+*/
+}
+#icon-4 {
+	background-position: 1px 1px; /*Facebook*/
+}
+#icon-3 {
+	background-position: 1px -81px; /*Mail*/
+}
+#icon-2 {
+	background-position: 1px -250px; /*LinkedIn*/
+}
+#icon-1 {
+	background-position: 1px -346px; /*Twitter*/
+}
+
+#feed-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "philosopher","Tahoma" !important;
+  overflow: hidden;
+  text-align: center;
+}
+#feed-container ul li {
+  list-style: outside none none;
+  margin: 0.2em;
+  padding: 0.2em;
+  transition: all 600ms ease-in 0s;
+}
+
+#feed-container a{
+  text-decoration: none;
+  color: #278ebe;
+  transition: all 600ms ease-in 0s;
+
+}
+
+#feed-container a:hover {
+  color: #be8e27;
+}
+
+#feed-container .blog-title {
+	text-align: center;
+	font-size: 1em;
+	margin: 0.1em;
+}
+
+#feed-container .blog-link {
+  margin: 0.8em 0;
+}
+.blog-summary {
+  color: #666;
+  text-align: center; 
+  font-size: 0.8em	;
+}
+.blog-date {
+	color: #aeaeae;
+	font-size: 0.8em;
+}
+#page-nos {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.blog-pages {
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.5em;
+  outline: none;
+}
+.blog-pages:hover {
+border-top: 1px dashed red;	
+}
+
+.clicked {
+	color: red;
+}
+
+@media only screen and (max-width: 500px) { 
+
+#svg-wrapper {
+	display: none;
+}
+
+#svg-fb {
+	display: block !important;
+}
+
+
+}
+
+
+</style>
+<script>
+	$(document).ready(function(){
+		$("#links li").delay(1000).fadeIn();
+	});
+</script>
+
+<!-- Cookie Conset -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "static": true
+})});
+</script>
+</head>
+<body>
+<div id="name">
+	<!--i id="dp-f"></i-->
+
+	    <svg id="svg-wrapper" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+       		 <text class="path" xml:space="preserve" text-anchor="middle" font-family="'Alex Brush', cursive" font-size="60" id="svg_1" y="80%" x="50%" stroke-width="2" stroke="#333" fill="#333">Vishnu V P</text>
+    		       		 
+    	</svg>
+    	<div id="svg-fb" style="display:none; text-align:center">
+    		<span style="font-size:4em; font-family:'Alex Brush',cursive;">Vishnu V P</span>
+    	</div>
+    	
+</div>
+<!-- div id="links">
+	<ul>
+		<li><a href="http://blog.vishnuvp.me" title="Blog - blog.vishnuvp.me" target="_blank">Blog</a></li>
+		<li><a href="rljson.html" title="Reading links" target="_blank">Reading List</a></li>
+		<li><a href="resume.html" title="Curriculum Vitae" target="_blank">CV</a></li>
+	</ul>
+</div -->
+<!-- a id="up-nav" class="menu-link" to="#main" style="text-decoration: none" href="#">&uparrow;</a -->
+<!--
+<div class="container" id="icon-container">
+	<i class="icon quad-0 no-translate" id="icon-0"></i>
+	<a href="https://twitter.com/vishnuvp" title="@vishnuvp" target="_blank"><i class="icon quad-2 no-translate" id="icon-1"></i></a>
+	<a href="https://in.linkedin.com/in/vi5hnuvp" title="linkedin.com/in/vi5hnuvp"target="_blank"><i class="icon quad-3 no-translate" id="icon-2"></i></a>
+	<a href="mailto:vishnuvp@ymail.com" title="E-mail to vishnuvp@ymail.com" target="_blank"><i class="icon quad-4 no-translate" id="icon-3"></i></a>
+	<a href="https://facebook.com/vishnuvp" title="Vishnu Venukumar - Facebook" target="_blank"><i class="icon quad-6 no-translate" id="icon-4"></i></a>
+	<a href="https://github.com/vishnuvp" title="vishnuvp - GitHub" target="_blank"><i class="icon quad-5 no-translate" id="icon-6"></i></a>
+	<!-- a href="https://www.google.com/+VishnuVenukumar" title="+Vishnu Venukumar" target="_blank"><i class="icon quad-5 no-translate" id="icon-5"></i></a -->
+	<a href="https://instagram.com/vishnuvenukumar" title="Vishnu Venukumar - Instagram" target="_blank"><i class="icon quad-7 no-translate" id="icon-7"></i></a>
+	<a href="http://stackexchange.com/users/3591432/vishnuvp" title="vishnuvp - StackExchange" target="_blank"><i class="icon quad-8 no-translate" id="icon-8"></i></a>
+</div>
+
+<div id="feed-container">
+			<hr style="border-style:ridge;border-color: #efefef" />
+    		<span style="font-size:1.2em; font-family:'Alex Brush',cursive;"><a style="color:#333" href="http://blog.vishnuvp.in" title="Blog - blog.vishnuvp.in" target="_blank">Blog Posts</a></span>
+	<ul>
+		
+	</ul>
+	<div id="page-nos"></div>
+</div>
+-->
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41294744-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
