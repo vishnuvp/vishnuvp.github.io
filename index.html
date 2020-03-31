@@ -254,6 +254,9 @@ border-top: 1px dashed red;
 
 }
 
+:not(.covid) {
+  color: rgba(0,0,0,0.1);
+}
 
 </style>
 <script>
@@ -297,14 +300,15 @@ window.cookieconsent.initialise({
     	
 </div>
 <div id="links">
-	<ul>
-		<li><a href="/covid19" title="CoVid-19 Analysis">CoVid - 19 Analysis</a></li>
+	<ul class="covid">
+		<li><a class="covid" style="font-family: courier" href="/covid19" title="CoVid-19 Analysis">CoVid - 19 Analysis</a></li>
 	</ul>
-<!--	<ul>
+	
+	<ul>
 		<li><a href="http://blog.vishnuvp.me" title="Blog - blog.vishnuvp.me" target="_blank">Blog</a></li>
 		<li><a href="rljson.html" title="Reading links" target="_blank">Reading List</a></li>
 		<li><a href="resume.html" title="Curriculum Vitae" target="_blank">CV</a></li>
-	</ul -->
+	</ul>
 </div>
 <!-- a id="up-nav" class="menu-link" to="#main" style="text-decoration: none" href="#">&uparrow;</a -->
 <!--
